@@ -1,0 +1,14 @@
+server:
+  port:8888
+spring:
+  applicatipon:
+    name: config-server
+  cloud:
+    config:
+      sercer:
+        git:
+          uri: https://github.com/ismaelpe/bootCamp-configServer.git
+        default-label: main
+        search-paths:
+        - '*service'
+      	
