@@ -11,4 +11,3 @@ spring:
         default-label: main
         search-paths:
         - '*service*'
-      	
